@@ -1,0 +1,45 @@
+/* HEADING */
+
+.storybook-heading-default {
+  @apply text-white font-bold;
+}
+
+.storybook-heading-xs {
+  @apply text-white font-bold text-xs;
+}
+
+.storybook-heading-sm {
+  @apply text-white font-bold text-sm;
+}
+
+.storybook-heading-base {
+  @apply text-white font-bold text-base;
+}
+
+.storybook-heading-lg {
+  @apply text-white font-bold text-lg;
+}
+
+.storybook-heading-xl {
+  @apply text-white font-bold text-xl;
+}
+
+.storybook-heading-2xl {
+  @apply text-white font-bold text-2xl;
+}
+
+.storybook-heading-3xl {
+  @apply text-white font-bold text-3xl;
+}
+
+.storybook-heading-4xl {
+  @apply text-white font-bold text-4xl;
+}
+
+.storybook-heading-5xl {
+  @apply text-white font-bold text-5xl;
+}
+
+.storybook-heading-6xl {
+  @apply text-white font-bold text-6xl;
+}

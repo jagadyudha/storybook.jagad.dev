@@ -5,23 +5,9 @@
 }
 
 .storybook-button-secondary {
-  @apply text-white rounded-md bg-[#393b3f] py-3 px-3 text-sm font-bold duration-300 ease-in-out hover:opacity-80 md:px-6 md:py-4
+  @apply text-white rounded-md bg-[#393b3f] py-3 px-3 text-sm font-bold duration-300 ease-in-out hover:opacity-80 md:px-6 md:py-4;
 }
 
 .storybook-button-tag {
   @apply rounded-md bg-white bg-opacity-40 py-1 px-2 text-center font-sans text-xs font-normal text-white;
-}
-
-/* HEADING */
-
-.storybook-heading-default {
-  @apply text-white font-bold;
-}
-
-.storybook-heading-base {
-  @apply text-white font-bold text-base;
-}
-
-.storybook-heading-xs {
-  @apply text-white font-bold text-xs;
 }
