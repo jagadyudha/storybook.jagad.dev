@@ -9,7 +9,7 @@ interface CodeProps {
 export const Code = ({ children, ...props }: CodeProps) => {
   React.useEffect(() => {
     Prism.highlightAll();
-  }, []);
+  }, [children]);
   return (
     <pre>
       <code className={`language-javascript`} {...props}>
