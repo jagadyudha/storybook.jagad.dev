@@ -11,6 +11,9 @@ module.exports = {
         background_100: "#2C2D30",
       },
     },
+    fontFamily: {
+      sans: ["Lexend Deca"],
+    },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };
