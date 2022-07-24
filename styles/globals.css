@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  @apply prose prose-invert prose-a:no-underline max-w-none;
+}
